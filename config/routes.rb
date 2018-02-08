@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   resources:articles
 
+  get 'signup', to: "users#new"
+  #post 'users', to: "users#create
+  #Better way: All routes, except the new user route, which is already defined above
+  resources :users, except: [:new]
 end

@@ -2,6 +2,11 @@ $navbar-default-bg: #33BBFF;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+h1 span {
+  font-weight: bolder;
+  color: green;
+}
+
 #logo {
   float: left; /*Left aligned   */
   font-size: 1.7em; /* increase the font size */
